@@ -142,10 +142,14 @@ If you change any metric, keep it consistent with `AssociationRulesGUI.py`.
 ## Versioning & licensing
 
 - The app version is the JS constant **`APP_VERSION`** (top of the `<script>` block,
-  currently `"1.0"`). `applyAppVersion()` (run on init) surfaces it in the brand version
+  currently `"1.1"`). `applyAppVersion()` (run on init) surfaces it in the brand version
   pill (`#appVersion`), the sidebar copyright line (`#sidebarCopyright`), and
   `document.title`. The "Open-source software" help topic also reads `APP_VERSION`. Bump
   this single constant to release a new version.
+- The sidebar brand area (`.brand-meta`) holds the version pill (`#appVersion`) next to a
+  static **GitHub** link pill (`#githubLink`, `.github-pill`) pointing at
+  `https://github.com/Adelsdorfer/Association-Rules-Studio`
+  (`target="_blank" rel="noopener noreferrer"`, inline GitHub-mark SVG + `GitHub` label).
 - The project is licensed under **GPL-3.0** (`LICENSE.txt`). `LICENSE.txt` also reproduces
   the full third-party license texts and attribution notices: SheetJS (Apache-2.0, banner
   `/*! xlsx.js (C) 2013-present SheetJS ... */`), D3.js (ISC, banner `// https://d3js.org

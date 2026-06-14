@@ -1,4 +1,4 @@
-# Association Rules Studio — v1.0
+# Association Rules Studio — v1.1
 
 **Association Rules Studio** is a single-file, fully client-side web app for
 **market-basket / association-rule mining** on Excel data. Load a workbook, mine frequent
@@ -21,8 +21,12 @@ it runs, fully offline.
 - **Interactive results** — sortable/searchable table, Top-20 cost chart, and a zoomable,
   draggable rule graph with PNG export.
 - **Filter presets** — save, load, and share reusable filter configurations.
+- **Light & dark themes** — a polished "deep space" dark theme plus a readable light theme,
+  with cross-browser (including Safari/WebKit) graph-rendering robustness.
 - **Privacy first** — all processing happens locally; your data never leaves the browser.
 
-## Version 1.0
+## Version 1.1
 
-This is the **initial public release**. Licensed under **GPL-3.0**.
+The current release, licensed under **GPL-3.0**. It refines the app with a light/dark theme
+toggle, Safari/WebKit graph-rendering fixes, and a project **GitHub** link in the sidebar
+brand area.

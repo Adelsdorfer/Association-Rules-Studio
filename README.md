@@ -12,7 +12,7 @@ frequent-itemset generation, and rule generation are implemented from scratch in
 JavaScript. Open the HTML file and it runs, fully offline.
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/Adelsdorfer/Association-Rules-Studio/blob/main/LICENSE)
-![Version](https://img.shields.io/badge/version-1.0-8b7bff.svg)
+![Version](https://img.shields.io/badge/version-1.1-8b7bff.svg)
 
 ---
 
@@ -85,8 +85,9 @@ JavaScript. Open the HTML file and it runs, fully offline.
 The interface is split into two areas:
 
 - **Sidebar (left):** all controls — input file, thresholds, text filters, filter presets,
-  and the run/export buttons. Collapsible, and auto-collapses 3 seconds after a successful
-  analysis to maximize result space.
+  and the run/export buttons. The brand area shows a version pill and a **GitHub** link pill.
+  Collapsible, and auto-collapses 3 seconds after a successful analysis to maximize result
+  space.
 - **Workspace (right):** a topbar (dataset name + compact stat chips + status/help), a tab
   bar, and the active panel:
   - **Console** — a timestamped log of every step.
@@ -493,7 +494,7 @@ itemset generation, and rule generation are implemented directly in `index.html`
 
 ## License
 
-Association Rules Studio **version 1.0** is licensed under the **GNU General Public
+Association Rules Studio **version 1.1** is licensed under the **GNU General Public
 License v3.0** (GPL-3.0). See the full text in [LICENSE.txt](LICENSE.txt) or on
 [GitHub](https://github.com/Adelsdorfer/Association-Rules-Studio/blob/main/LICENSE).
 

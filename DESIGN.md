@@ -131,7 +131,12 @@ themes:
 - **Pills / chips** (`.pill`, `.metric-chip`, `.stat-chip`): rounded, `--surface-strong`,
   muted text.
 - **Version pill** (`.version-pill`, `#appVersion`): violet-tinted pill in the brand area
-  showing the current `APP_VERSION` (e.g. `v1.0`); populated by `applyAppVersion()`.
+  showing the current `APP_VERSION` (e.g. `v1.1`); populated by `applyAppVersion()`.
+- **GitHub pill** (`.github-pill`, `#githubLink`): a glass link pill sitting next to the
+  version pill inside `.brand-meta`, with an inline GitHub-mark SVG + `GitHub` label, linking
+  to the project repository (`target="_blank" rel="noopener noreferrer"`). Uses Space Grotesk,
+  `--surface-strong` fill and `--line-strong` border, with a violet hover/focus tint; the
+  light theme overrides the hover to the violet `#5840d6` accent.
 - **Status pill** (`#runtimeStatus`): neutral while busy; gets `.pill.is-ready` (green
   text/border/tint) when idle and showing "ready". Toggled in `setBusy`.
 - **Inputs**: dark translucent fill (`rgba(255,255,255,0.06)`), light text, violet focus
