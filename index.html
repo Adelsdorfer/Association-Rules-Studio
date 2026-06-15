@@ -375,6 +375,11 @@
       background: rgba(255, 255, 255, 0.09);
     }
 
+    select option {
+      background: var(--paper-strong);
+      color: var(--ink);
+    }
+
     .check {
       display: flex;
       align-items: center;
@@ -1586,6 +1591,11 @@
     :root[data-theme="light"] input[type="file"],
     :root[data-theme="light"] select {
       background: #ffffff;
+    }
+
+    :root[data-theme="light"] select option {
+      background: #ffffff;
+      color: var(--ink);
     }
 
     :root[data-theme="light"] input:focus,
